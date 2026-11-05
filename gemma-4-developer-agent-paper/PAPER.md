@@ -123,16 +123,16 @@ A small mathematical language and a closed operational schema can provide a free
 
 | mode | cases | safe_allowed | unsafe_rejected | unsafe_allowed | false_rejects | unsafe_rejection_rate | median_ms | p95_ms | total_ms |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| no_guard | 480 | 60 | 0 | 420 | 0 | 0.000000 | 0.000083 | 0.000084 | 0.031034 |
-| formal_only | 480 | 60 | 360 | 60 | 0 | 0.857143 | 1.329292 | 1.438317 | 636.582747 |
-| policy_only | 480 | 60 | 240 | 180 | 0 | 0.571429 | 0.005459 | 0.006377 | 2.790494 |
-| combined | 480 | 60 | 420 | 0 | 0 | 1.000000 | 1.329375 | 1.432839 | 635.313257 |
+| no_guard | 480 | 60 | 0 | 420 | 0 | 0.000000 | 0.000083 | 0.000084 | 0.031801 |
+| formal_only | 480 | 60 | 360 | 60 | 0 | 0.857143 | 1.419833 | 1.655660 | 706.449718 |
+| policy_only | 480 | 60 | 240 | 180 | 0 | 0.571429 | 0.005605 | 0.007167 | 2.947215 |
+| combined | 480 | 60 | 420 | 0 | 0 | 1.000000 | 1.487958 | 2.023931 | 744.028292 |
 
 ### Measurement provenance
 
 ```json
 {
-  "generated_utc": "2026-11-05T01:14:27.518617+00:00",
+  "generated_utc": "2026-11-05T01:29:28.187347+00:00",
   "environment": {
     "system": "Darwin",
     "architecture": "arm64",
@@ -188,7 +188,7 @@ A small mathematical language and a closed operational schema can provide a free
       "correct": 4,
       "total": 6
     },
-    "common_source_sha256": "0d2bf061ca16ac4255af7c427624359d7cc5a044b727acc615acedc31f424baf"
+    "common_source_sha256": "5a1157fe5c230dc95911f360ad444be5bfd0e8b7223da2dbfb623120908e8be0"
   }
 }
 ```

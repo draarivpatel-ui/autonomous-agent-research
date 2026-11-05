@@ -135,28 +135,28 @@ A small RMSNorm study can expose correctness and performance together. The measu
 
 | backend | implementation | rows | features | dtype | max_absolute_error | num_warps | median_ms | p95_ms | total_ms |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| cpu | numpy_materialized | 32 | 128 | float32 | 0.000001 | 0 | 0.005021 | 0.005439 | 0.255040 |
-| cpu | numpy_fused_reduction | 32 | 128 | float32 | 0.000001 | 0 | 0.004083 | 0.004255 | 0.204879 |
-| cpu | numpy_materialized | 512 | 1024 | float32 | 0.000003 | 0 | 0.202833 | 0.212246 | 10.162915 |
-| cpu | numpy_fused_reduction | 512 | 1024 | float32 | 0.000003 | 0 | 0.166417 | 0.172564 | 8.324751 |
-| cpu | numpy_materialized | 1024 | 4096 | float32 | 0.000004 | 0 | 1.716521 | 1.767094 | 86.051543 |
-| cpu | numpy_fused_reduction | 1024 | 4096 | float32 | 0.000004 | 0 | 1.552188 | 1.617042 | 78.466749 |
-| cpu | numpy_materialized | 33 | 513 | float32 | 0.000001 | 0 | 0.011667 | 0.011856 | 0.584457 |
-| cpu | numpy_fused_reduction | 33 | 513 | float32 | 0.000001 | 0 | 0.008958 | 0.009125 | 0.448244 |
-| metal | mlx_expression | 32 | 128 | float32 | 0.000001 | 0 | 0.337355 | 0.368969 | 14.505665 |
-| metal | metal_fused | 32 | 128 | float32 | 0.000001 | 0 | 0.176333 | 0.198897 | 8.816246 |
-| metal | mlx_expression | 512 | 1024 | float32 | 0.000001 | 0 | 0.235875 | 0.255160 | 11.804750 |
-| metal | metal_fused | 512 | 1024 | float32 | 0.000001 | 0 | 0.191937 | 0.215450 | 9.567162 |
-| metal | mlx_expression | 1024 | 4096 | float32 | 0.000003 | 0 | 1.144854 | 1.208548 | 57.308877 |
-| metal | metal_fused | 1024 | 4096 | float32 | 0.000003 | 0 | 0.507541 | 0.543144 | 25.226040 |
-| metal | mlx_expression | 33 | 513 | float32 | 0.000001 | 0 | 0.177812 | 0.198923 | 8.877124 |
-| metal | metal_fused | 33 | 513 | float32 | 0.000001 | 0 | 0.184688 | 0.197852 | 9.169330 |
+| cpu | numpy_materialized | 32 | 128 | float32 | 0.000001 | 0 | 0.005334 | 0.005919 | 0.277250 |
+| cpu | numpy_fused_reduction | 32 | 128 | float32 | 0.000001 | 0 | 0.004167 | 0.004315 | 0.209166 |
+| cpu | numpy_materialized | 512 | 1024 | float32 | 0.000003 | 0 | 0.205250 | 0.214404 | 10.346918 |
+| cpu | numpy_fused_reduction | 512 | 1024 | float32 | 0.000003 | 0 | 0.169521 | 0.174600 | 8.526999 |
+| cpu | numpy_materialized | 1024 | 4096 | float32 | 0.000004 | 0 | 1.750750 | 1.890952 | 88.301793 |
+| cpu | numpy_fused_reduction | 1024 | 4096 | float32 | 0.000004 | 0 | 1.585958 | 1.681070 | 79.882916 |
+| cpu | numpy_materialized | 33 | 513 | float32 | 0.000001 | 0 | 0.011833 | 0.012281 | 0.599578 |
+| cpu | numpy_fused_reduction | 33 | 513 | float32 | 0.000001 | 0 | 0.009000 | 0.009166 | 0.456584 |
+| metal | mlx_expression | 32 | 128 | float32 | 0.000001 | 0 | 0.329209 | 0.666087 | 17.482920 |
+| metal | metal_fused | 32 | 128 | float32 | 0.000001 | 0 | 0.184166 | 0.198757 | 8.935666 |
+| metal | mlx_expression | 512 | 1024 | float32 | 0.000001 | 0 | 0.251792 | 0.293452 | 12.911630 |
+| metal | metal_fused | 512 | 1024 | float32 | 0.000001 | 0 | 0.213375 | 0.323142 | 10.998369 |
+| metal | mlx_expression | 1024 | 4096 | float32 | 0.000003 | 0 | 1.151334 | 1.325025 | 58.323623 |
+| metal | metal_fused | 1024 | 4096 | float32 | 0.000003 | 0 | 0.496959 | 0.659237 | 25.883204 |
+| metal | mlx_expression | 33 | 513 | float32 | 0.000001 | 0 | 0.204479 | 0.215056 | 9.874832 |
+| metal | metal_fused | 33 | 513 | float32 | 0.000001 | 0 | 0.201458 | 0.214052 | 10.232497 |
 
 ### Measurement provenance
 
 ```json
 {
-  "generated_utc": "2026-11-05T01:15:26.354671+00:00",
+  "generated_utc": "2026-11-05T01:30:29.388686+00:00",
   "environment": {
     "system": "Darwin",
     "architecture": "arm64",
@@ -188,7 +188,7 @@ A small RMSNorm study can expose correctness and performance together. The measu
     "benchmark_source_sha256": "09d584c39a212633b6226765906e692b701f9d71323e913c33eacab9f4981b01",
     "triton_kernel_sha256": "a2a870fb8e4fdcd7c9dff71fe9dac902b55008a88c1125d874bbe93722e2599e",
     "metal_kernel_sha256": "8a21e056fffa6d2f44ced43e769029512623c4af267b2ca7422a3f64a2cd1369",
-    "common_source_sha256": "0d2bf061ca16ac4255af7c427624359d7cc5a044b727acc615acedc31f424baf"
+    "common_source_sha256": "5a1157fe5c230dc95911f360ad444be5bfd0e8b7223da2dbfb623120908e8be0"
   }
 }
 ```

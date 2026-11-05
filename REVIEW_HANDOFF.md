@@ -23,7 +23,7 @@ Check that manuscript claims agree with the ledgers. Generated fixture repetitio
 
 ## Publishing gate
 
-This run could not authenticate GitHub CLI, HTTPS push or SSH. Existing remotes belong to the publicly resolved account recorded in CAMPAIGN.md. No remote was migrated to the unresolved account name in the brief.
+This run could not authenticate GitHub CLI, HTTPS push or SSH. The regular machine CLI profile also returned HTTP 401. The private credential request timed out without a credential. Existing remotes belong to the publicly resolved account recorded in CAMPAIGN.md. No remote was migrated to the unresolved account name in the brief.
 
 Use an already authorized authenticated environment or the product's private secret-entry mechanism. Never paste an account token into a report, code file or ordinary chat. Confirm the exact research repository before creating its remote.
 

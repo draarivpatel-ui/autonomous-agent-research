@@ -124,16 +124,16 @@ This small solver demonstrates how learned search order and several types of ver
 
 | split | mode | tasks | solved | exact_task_accuracy | test_pairs | exact_pair_accuracy | training_fits | z3_training_certificates | invariance_checks_passed | mean_candidates | median_ms | p95_ms | total_ms |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| generated_heldout | uniform | 240 | 233 | 0.970833 | 240 | 0.970833 | 240 | 196 | 240 | 7.691667 | 19.987541 | 76.611214 | 5987.187546 |
-| generated_heldout | neural | 240 | 234 | 0.975000 | 240 | 0.975000 | 240 | 179 | 240 | 1.000000 | 19.934500 | 76.556891 | 5581.415460 |
-| arc_public_training | uniform | 400 | 20 | 0.050000 | 416 | 0.048077 | 21 | 14 | 21 | 260.192500 | 18.135208 | 92.713389 | 11966.190717 |
-| arc_public_training | neural | 400 | 20 | 0.050000 | 416 | 0.048077 | 21 | 9 | 21 | 259.225000 | 18.761771 | 94.397712 | 12693.338710 |
+| generated_heldout | uniform | 240 | 233 | 0.970833 | 240 | 0.970833 | 240 | 196 | 240 | 7.691667 | 21.926209 | 78.991760 | 6282.492546 |
+| generated_heldout | neural | 240 | 234 | 0.975000 | 240 | 0.975000 | 240 | 179 | 240 | 1.000000 | 20.663500 | 83.396413 | 6066.685250 |
+| arc_public_training | uniform | 400 | 20 | 0.050000 | 416 | 0.048077 | 21 | 14 | 21 | 260.192500 | 18.141396 | 93.419788 | 12190.558237 |
+| arc_public_training | neural | 400 | 20 | 0.050000 | 416 | 0.048077 | 21 | 9 | 21 | 259.225000 | 18.434729 | 95.455150 | 12591.532083 |
 
 ### Measurement provenance
 
 ```json
 {
-  "generated_utc": "2026-11-05T01:15:24.037649+00:00",
+  "generated_utc": "2026-11-05T01:30:27.051185+00:00",
   "environment": {
     "system": "Darwin",
     "architecture": "arm64",
@@ -169,13 +169,13 @@ This small solver demonstrates how learned search order and several types of ver
     "source_commit": "399030444e0ab0cc8b4e199870fb20b863846f34",
     "dataset_sha256": "7577f9fa12311153f5c2f2f2e2d39b370e4fabbfad64ce813ef040533e139735",
     "dataset_scope": "all 400 public ARC-AGI training tasks, never private competition evaluation",
-    "neural_training_ms": 237.496542,
+    "neural_training_ms": 240.114166,
     "neural_training_samples": 960,
     "neural_validation_samples": 192,
     "neural_validation_top1_accuracy": 0.9427083333333334,
     "model_sha256": "ce46217820eb59df3a425e432b4b949e2f0b77011f3920ecd39d2263555d81f0",
     "solver_source_sha256": "88b0f76e66762c5f918181f620ff2eed2fbc51944d3726dc9a9ba83b0b18ff2b",
-    "common_source_sha256": "0d2bf061ca16ac4255af7c427624359d7cc5a044b727acc615acedc31f424baf"
+    "common_source_sha256": "5a1157fe5c230dc95911f360ad444be5bfd0e8b7223da2dbfb623120908e8be0"
   }
 }
 ```

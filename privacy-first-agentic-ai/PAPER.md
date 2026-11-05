@@ -121,43 +121,43 @@ A narrow closed schema, real cryptography, replay control and explicitly disable
 
 | experiment | trials | successes | rejected | rate | median_ms | p95_ms | total_ms |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| AEAD_and_replay_state | 1000 | 1000 | 0 | 1.000000 | 0.002792 | 0.003375 | 3.008802 |
-| Ed25519_detached_signatures | 1000 | 1000 | 0 | 1.000000 | 0.200000 | 0.209926 | 200.991071 |
-| tampered_ciphertext | 100 | 0 | 100 | 1.000000 | 0.002000 | 0.002375 | 0.414666 |
-| wrong_key | 100 | 0 | 100 | 1.000000 | 0.002416 | 0.003042 | 0.258213 |
-| replay | 100 | 0 | 100 | 1.000000 | 0.001583 | 0.001750 | 0.161297 |
-| truncated | 100 | 0 | 100 | 1.000000 | 0.000375 | 0.000417 | 0.037833 |
-| unknown_field | 100 | 0 | 100 | 1.000000 | 0.000584 | 0.000708 | 0.061464 |
-| invalid_enum | 100 | 0 | 100 | 1.000000 | 0.000708 | 0.000791 | 0.070290 |
+| AEAD_and_replay_state | 1000 | 1000 | 0 | 1.000000 | 0.002875 | 0.003375 | 3.086284 |
+| Ed25519_detached_signatures | 1000 | 1000 | 0 | 1.000000 | 0.200271 | 0.211377 | 202.054576 |
+| tampered_ciphertext | 100 | 0 | 100 | 1.000000 | 0.002188 | 0.002590 | 3.036669 |
+| wrong_key | 100 | 0 | 100 | 1.000000 | 0.002458 | 0.002709 | 0.265378 |
+| replay | 100 | 0 | 100 | 1.000000 | 0.001625 | 0.001710 | 0.165709 |
+| truncated | 100 | 0 | 100 | 1.000000 | 0.000375 | 0.000419 | 0.040322 |
+| unknown_field | 100 | 0 | 100 | 1.000000 | 0.000625 | 0.000711 | 0.064291 |
+| invalid_enum | 100 | 0 | 100 | 1.000000 | 0.000708 | 0.000794 | 0.077667 |
 
 ### Acoustic measurements
 
 | snr_db | mode | trials | authenticated_recoveries | unsafe_accepts | recovery_rate | wilson95_low | wilson95_high | airtime_seconds | plaintext_goodput_bps | median_ms | p95_ms | total_ms |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| -24 | coded | 12 | 0 | 0 | 0.000000 | 0.000000 | 0.242494 | 3.866621 | 0.000000 | 5.916645 | 6.326269 | 71.339250 |
-| -24 | raw | 12 | 0 | 0 | 0.000000 | 0.000000 | 0.242494 | 2.187256 | 0.000000 | 3.219917 | 3.591594 | 39.227956 |
-| -18 | coded | 12 | 0 | 0 | 0.000000 | 0.000000 | 0.242494 | 3.866621 | 0.000000 | 5.889521 | 6.037711 | 70.848293 |
-| -18 | raw | 12 | 0 | 0 | 0.000000 | 0.000000 | 0.242494 | 2.187256 | 0.000000 | 3.215520 | 3.236223 | 38.487542 |
-| -12 | coded | 12 | 9 | 0 | 0.750000 | 0.467695 | 0.911058 | 3.866621 | 10.862196 | 5.868979 | 6.175389 | 70.821041 |
-| -12 | raw | 12 | 9 | 0 | 0.750000 | 0.467695 | 0.911058 | 2.187256 | 19.202140 | 3.218500 | 3.392444 | 38.877914 |
-| -9 | coded | 12 | 12 | 0 | 1.000000 | 0.757506 | 1 | 3.866621 | 14.482928 | 5.833208 | 5.923967 | 70.019042 |
-| -9 | raw | 12 | 12 | 0 | 1.000000 | 0.757506 | 1 | 2.187256 | 25.602853 | 3.177646 | 3.213967 | 38.136127 |
-| -6 | coded | 12 | 12 | 0 | 1.000000 | 0.757506 | 1 | 3.866621 | 14.482928 | 5.653770 | 6.994785 | 70.659289 |
-| -6 | raw | 12 | 12 | 0 | 1.000000 | 0.757506 | 1 | 2.187256 | 25.602853 | 3.157167 | 3.495642 | 38.467957 |
-| -3 | coded | 12 | 12 | 0 | 1.000000 | 0.757506 | 1 | 3.866621 | 14.482928 | 5.447458 | 5.581602 | 65.578790 |
-| -3 | raw | 12 | 12 | 0 | 1.000000 | 0.757506 | 1 | 2.187256 | 25.602853 | 3.035146 | 3.060719 | 36.302208 |
-| 0 | coded | 12 | 12 | 0 | 1.000000 | 0.757506 | 1 | 3.866621 | 14.482928 | 5.460854 | 6.366840 | 67.193252 |
-| 0 | raw | 12 | 12 | 0 | 1.000000 | 0.757506 | 1 | 2.187256 | 25.602853 | 3.020292 | 3.346936 | 36.783668 |
-| 6 | coded | 12 | 12 | 0 | 1.000000 | 0.757506 | 1 | 3.866621 | 14.482928 | 5.456416 | 5.548587 | 65.467374 |
-| 6 | raw | 12 | 12 | 0 | 1.000000 | 0.757506 | 1 | 2.187256 | 25.602853 | 2.981708 | 3.169408 | 36.169291 |
-| 12 | coded | 12 | 12 | 0 | 1.000000 | 0.757506 | 1 | 3.866621 | 14.482928 | 5.395271 | 5.535604 | 64.883002 |
-| 12 | raw | 12 | 12 | 0 | 1.000000 | 0.757506 | 1 | 2.187256 | 25.602853 | 2.961500 | 3.046913 | 35.678542 |
+| -24 | coded | 12 | 0 | 0 | 0.000000 | 0.000000 | 0.242494 | 3.866621 | 0.000000 | 5.920542 | 6.362242 | 71.896043 |
+| -24 | raw | 12 | 0 | 0 | 0.000000 | 0.000000 | 0.242494 | 2.187256 | 0.000000 | 3.254041 | 3.634534 | 39.692458 |
+| -18 | coded | 12 | 0 | 0 | 0.000000 | 0.000000 | 0.242494 | 3.866621 | 0.000000 | 5.956646 | 6.042054 | 71.420751 |
+| -18 | raw | 12 | 0 | 0 | 0.000000 | 0.000000 | 0.242494 | 2.187256 | 0.000000 | 3.267792 | 3.304219 | 39.203668 |
+| -12 | coded | 12 | 9 | 0 | 0.750000 | 0.467695 | 0.911058 | 3.866621 | 10.862196 | 5.950417 | 6.096506 | 71.585417 |
+| -12 | raw | 12 | 9 | 0 | 0.750000 | 0.467695 | 0.911058 | 2.187256 | 19.202140 | 3.279521 | 3.435148 | 39.621833 |
+| -9 | coded | 12 | 12 | 0 | 1.000000 | 0.757506 | 1 | 3.866621 | 14.482928 | 5.919146 | 5.972837 | 70.962792 |
+| -9 | raw | 12 | 12 | 0 | 1.000000 | 0.757506 | 1 | 2.187256 | 25.602853 | 3.279875 | 3.342927 | 39.314960 |
+| -6 | coded | 12 | 12 | 0 | 1.000000 | 0.757506 | 1 | 3.866621 | 14.482928 | 5.542459 | 5.870610 | 67.586209 |
+| -6 | raw | 12 | 12 | 0 | 1.000000 | 0.757506 | 1 | 2.187256 | 25.602853 | 3.084375 | 3.256219 | 37.359668 |
+| -3 | coded | 12 | 12 | 0 | 1.000000 | 0.757506 | 1 | 3.866621 | 14.482928 | 5.506583 | 5.557063 | 66.028083 |
+| -3 | raw | 12 | 12 | 0 | 1.000000 | 0.757506 | 1 | 2.187256 | 25.602853 | 3.066438 | 3.104154 | 36.761833 |
+| 0 | coded | 12 | 12 | 0 | 1.000000 | 0.757506 | 1 | 3.866621 | 14.482928 | 5.468709 | 6.583598 | 67.778168 |
+| 0 | raw | 12 | 12 | 0 | 1.000000 | 0.757506 | 1 | 2.187256 | 25.602853 | 3.054625 | 3.480108 | 37.452540 |
+| 6 | coded | 12 | 12 | 0 | 1.000000 | 0.757506 | 1 | 3.866621 | 14.482928 | 5.511938 | 5.632213 | 66.059169 |
+| 6 | raw | 12 | 12 | 0 | 1.000000 | 0.757506 | 1 | 2.187256 | 25.602853 | 3.038605 | 3.204171 | 36.800500 |
+| 12 | coded | 12 | 12 | 0 | 1.000000 | 0.757506 | 1 | 3.866621 | 14.482928 | 5.466250 | 5.641079 | 65.727124 |
+| 12 | raw | 12 | 12 | 0 | 1.000000 | 0.757506 | 1 | 2.187256 | 25.602853 | 3.002604 | 3.101990 | 36.235374 |
 
 ### Measurement provenance
 
 ```json
 {
-  "generated_utc": "2026-11-05T01:15:25.722987+00:00",
+  "generated_utc": "2026-11-05T01:30:28.742207+00:00",
   "environment": {
     "system": "Darwin",
     "architecture": "arm64",
@@ -184,9 +184,9 @@ A narrow closed schema, real cryptography, replay control and explicitly disable
         "wilson95_high": 0.24249400665524085,
         "airtime_seconds": 3.8666213151927438,
         "plaintext_goodput_bps": 0.0,
-        "median_ms": 5.916645499999994,
-        "p95_ms": 6.32626875,
-        "total_ms": 71.33924999999992
+        "median_ms": 5.920541500000006,
+        "p95_ms": 6.362241850000007,
+        "total_ms": 71.896043
       },
       {
         "snr_db": -24,
@@ -199,9 +199,9 @@ A narrow closed schema, real cryptography, replay control and explicitly disable
         "wilson95_high": 0.24249400665524085,
         "airtime_seconds": 2.1872562358276646,
         "plaintext_goodput_bps": 0.0,
-        "median_ms": 3.2199165000000107,
-        "p95_ms": 3.591593900000005,
-        "total_ms": 39.227956000000034
+        "median_ms": 3.2540414999999996,
+        "p95_ms": 3.6345338500000013,
+        "total_ms": 39.692457999999974
       },
       {
         "snr_db": -18,
@@ -214,9 +214,9 @@ A narrow closed schema, real cryptography, replay control and explicitly disable
         "wilson95_high": 0.24249400665524085,
         "airtime_seconds": 3.8666213151927438,
         "plaintext_goodput_bps": 0.0,
-        "median_ms": 5.889521000000002,
-        "p95_ms": 6.0377108999999844,
-        "total_ms": 70.84829299999984
+        "median_ms": 5.956645500000008,
+        "p95_ms": 6.042054200000004,
+        "total_ms": 71.420751
       },
       {
         "snr_db": -18,
@@ -229,9 +229,9 @@ A narrow closed schema, real cryptography, replay control and explicitly disable
         "wilson95_high": 0.24249400665524085,
         "airtime_seconds": 2.1872562358276646,
         "plaintext_goodput_bps": 0.0,
-        "median_ms": 3.2155204999999967,
-        "p95_ms": 3.236223099999981,
-        "total_ms": 38.487541999999905
+        "median_ms": 3.267791999999986,
+        "p95_ms": 3.3042187499999955,
+        "total_ms": 39.20366799999994
       },
       {
         "snr_db": -12,
@@ -244,9 +244,9 @@ A narrow closed schema, real cryptography, replay control and explicitly disable
         "wilson95_high": 0.9110583316059453,
         "airtime_seconds": 3.8666213151927438,
         "plaintext_goodput_bps": 10.862196366366014,
-        "median_ms": 5.868978999999996,
-        "p95_ms": 6.175389099999995,
-        "total_ms": 70.82104099999998
+        "median_ms": 5.950417000000016,
+        "p95_ms": 6.096506400000001,
+        "total_ms": 71.58541700000012
       },
       {
         "snr_db": -12,
@@ -259,9 +259,9 @@ A narrow closed schema, real cryptography, replay control and explicitly disable
         "wilson95_high": 0.9110583316059453,
         "airtime_seconds": 2.1872562358276646,
         "plaintext_goodput_bps": 19.202139791411806,
-        "median_ms": 3.218500000000006,
-        "p95_ms": 3.392443600000018,
-        "total_ms": 38.877914000000146
+        "median_ms": 3.279521000000017,
+        "p95_ms": 3.435147699999979,
+        "total_ms": 39.621832999999924
       },
       {
         "snr_db": -9,
@@ -274,9 +274,9 @@ A narrow closed schema, real cryptography, replay control and explicitly disable
         "wilson95_high": 1,
         "airtime_seconds": 3.8666213151927438,
         "plaintext_goodput_bps": 14.48292848848802,
-        "median_ms": 5.833208499999955,
-        "p95_ms": 5.923966999999988,
-        "total_ms": 70.01904199999979
+        "median_ms": 5.919146000000012,
+        "p95_ms": 5.972837499999952,
+        "total_ms": 70.96279199999981
       },
       {
         "snr_db": -9,
@@ -289,9 +289,9 @@ A narrow closed schema, real cryptography, replay control and explicitly disable
         "wilson95_high": 1,
         "airtime_seconds": 2.1872562358276646,
         "plaintext_goodput_bps": 25.60285305521574,
-        "median_ms": 3.1776459999999815,
-        "p95_ms": 3.2139668500000083,
-        "total_ms": 38.13612699999993
+        "median_ms": 3.2798749999999757,
+        "p95_ms": 3.3429270499999575,
+        "total_ms": 39.314959999999985
       },
       {
         "snr_db": -6,
@@ -304,9 +304,9 @@ A narrow closed schema, real cryptography, replay control and explicitly disable
         "wilson95_high": 1,
         "airtime_seconds": 3.8666213151927438,
         "plaintext_goodput_bps": 14.48292848848802,
-        "median_ms": 5.6537704999999505,
-        "p95_ms": 6.994785050000017,
-        "total_ms": 70.65928899999994
+        "median_ms": 5.542458500000009,
+        "p95_ms": 5.870610199999982,
+        "total_ms": 67.58620900000005
       },
       {
         "snr_db": -6,
@@ -319,9 +319,9 @@ A narrow closed schema, real cryptography, replay control and explicitly disable
         "wilson95_high": 1,
         "airtime_seconds": 2.1872562358276646,
         "plaintext_goodput_bps": 25.60285305521574,
-        "median_ms": 3.1571665000000166,
-        "p95_ms": 3.49564215000002,
-        "total_ms": 38.4679570000003
+        "median_ms": 3.084374999999966,
+        "p95_ms": 3.256218750000028,
+        "total_ms": 37.359668000000056
       },
       {
         "snr_db": -3,
@@ -334,9 +334,9 @@ A narrow closed schema, real cryptography, replay control and explicitly disable
         "wilson95_high": 1,
         "airtime_seconds": 3.8666213151927438,
         "plaintext_goodput_bps": 14.48292848848802,
-        "median_ms": 5.44745800000004,
-        "p95_ms": 5.58160189999997,
-        "total_ms": 65.57878999999991
+        "median_ms": 5.506583000000035,
+        "p95_ms": 5.557062649999989,
+        "total_ms": 66.02808300000015
       },
       {
         "snr_db": -3,
@@ -349,9 +349,9 @@ A narrow closed schema, real cryptography, replay control and explicitly disable
         "wilson95_high": 1,
         "airtime_seconds": 2.1872562358276646,
         "plaintext_goodput_bps": 25.60285305521574,
-        "median_ms": 3.0351459999999975,
-        "p95_ms": 3.0607185999999444,
-        "total_ms": 36.30220799999972
+        "median_ms": 3.0664379999999483,
+        "p95_ms": 3.10415394999996,
+        "total_ms": 36.76183299999968
       },
       {
         "snr_db": 0,
@@ -364,9 +364,9 @@ A narrow closed schema, real cryptography, replay control and explicitly disable
         "wilson95_high": 1,
         "airtime_seconds": 3.8666213151927438,
         "plaintext_goodput_bps": 14.48292848848802,
-        "median_ms": 5.460854499999982,
-        "p95_ms": 6.366839549999997,
-        "total_ms": 67.1932519999998
+        "median_ms": 5.46870899999999,
+        "p95_ms": 6.583597699999973,
+        "total_ms": 67.77816799999982
       },
       {
         "snr_db": 0,
@@ -379,9 +379,9 @@ A narrow closed schema, real cryptography, replay control and explicitly disable
         "wilson95_high": 1,
         "airtime_seconds": 2.1872562358276646,
         "plaintext_goodput_bps": 25.60285305521574,
-        "median_ms": 3.0202920000000404,
-        "p95_ms": 3.3469357499999774,
-        "total_ms": 36.78366800000015
+        "median_ms": 3.0546249999999873,
+        "p95_ms": 3.480107849999996,
+        "total_ms": 37.452540000000226
       },
       {
         "snr_db": 6,
@@ -394,9 +394,9 @@ A narrow closed schema, real cryptography, replay control and explicitly disable
         "wilson95_high": 1,
         "airtime_seconds": 3.8666213151927438,
         "plaintext_goodput_bps": 14.48292848848802,
-        "median_ms": 5.456416499999932,
-        "p95_ms": 5.548587349999934,
-        "total_ms": 65.46737399999961
+        "median_ms": 5.511937500000045,
+        "p95_ms": 5.632212799999934,
+        "total_ms": 66.05916899999988
       },
       {
         "snr_db": 6,
@@ -409,9 +409,9 @@ A narrow closed schema, real cryptography, replay control and explicitly disable
         "wilson95_high": 1,
         "airtime_seconds": 2.1872562358276646,
         "plaintext_goodput_bps": 25.60285305521574,
-        "median_ms": 2.9817079999999123,
-        "p95_ms": 3.1694083000000317,
-        "total_ms": 36.16929100000016
+        "median_ms": 3.0386045000000195,
+        "p95_ms": 3.20417080000002,
+        "total_ms": 36.800500000000056
       },
       {
         "snr_db": 12,
@@ -424,9 +424,9 @@ A narrow closed schema, real cryptography, replay control and explicitly disable
         "wilson95_high": 1,
         "airtime_seconds": 3.8666213151927438,
         "plaintext_goodput_bps": 14.48292848848802,
-        "median_ms": 5.39527099999998,
-        "p95_ms": 5.535604049999984,
-        "total_ms": 64.8830019999998
+        "median_ms": 5.466249999999945,
+        "p95_ms": 5.641078799999946,
+        "total_ms": 65.727124
       },
       {
         "snr_db": 12,
@@ -439,9 +439,9 @@ A narrow closed schema, real cryptography, replay control and explicitly disable
         "wilson95_high": 1,
         "airtime_seconds": 2.1872562358276646,
         "plaintext_goodput_bps": 25.60285305521574,
-        "median_ms": 2.961500000000001,
-        "p95_ms": 3.0469126499999333,
-        "total_ms": 35.67854200000011
+        "median_ms": 3.0026040000000194,
+        "p95_ms": 3.1019902499999374,
+        "total_ms": 36.23537400000009
       }
     ],
     "dsp_source_sha256": "30b4f2e2a60a292368a0c0d52a7df08dce2b7bf75a746dfa9f892e5f378b599e",
@@ -455,7 +455,7 @@ A narrow closed schema, real cryptography, replay control and explicitly disable
     "network_transport": "denied and instrumented in Python and Node",
     "physical_acoustic_hardware_tested": false,
     "privacy_scope": "closed synthetic schema, not side-channel or compromised-host protection",
-    "common_source_sha256": "0d2bf061ca16ac4255af7c427624359d7cc5a044b727acc615acedc31f424baf"
+    "common_source_sha256": "5a1157fe5c230dc95911f360ad444be5bfd0e8b7223da2dbfb623120908e8be0"
   }
 }
 ```

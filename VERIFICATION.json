@@ -69,6 +69,8 @@
   "publishing": {
     "status": "not_pushed_by_this_run",
     "github_cli_authenticated": false,
+    "regular_machine_cli_profile": "HTTP_401",
+    "private_secret_request": "timed_out_without_credential",
     "https_dry_run": "could_not_obtain_password",
     "ssh": "permission_denied",
     "requested_account_lookup": "public_API_404",

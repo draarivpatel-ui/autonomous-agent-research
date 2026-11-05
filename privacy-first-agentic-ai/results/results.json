@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "study": "closed-schema local private agent boundary",
-  "generated_utc": "2026-11-05T01:15:25.722987+00:00",
+  "generated_utc": "2026-11-05T01:30:28.742207+00:00",
   "environment": {
     "system": "Darwin",
     "architecture": "arm64",
@@ -28,9 +28,9 @@
         "wilson95_high": 0.24249400665524085,
         "airtime_seconds": 3.8666213151927438,
         "plaintext_goodput_bps": 0.0,
-        "median_ms": 5.916645499999994,
-        "p95_ms": 6.32626875,
-        "total_ms": 71.33924999999992
+        "median_ms": 5.920541500000006,
+        "p95_ms": 6.362241850000007,
+        "total_ms": 71.896043
       },
       {
         "snr_db": -24,
@@ -43,9 +43,9 @@
         "wilson95_high": 0.24249400665524085,
         "airtime_seconds": 2.1872562358276646,
         "plaintext_goodput_bps": 0.0,
-        "median_ms": 3.2199165000000107,
-        "p95_ms": 3.591593900000005,
-        "total_ms": 39.227956000000034
+        "median_ms": 3.2540414999999996,
+        "p95_ms": 3.6345338500000013,
+        "total_ms": 39.692457999999974
       },
       {
         "snr_db": -18,
@@ -58,9 +58,9 @@
         "wilson95_high": 0.24249400665524085,
         "airtime_seconds": 3.8666213151927438,
         "plaintext_goodput_bps": 0.0,
-        "median_ms": 5.889521000000002,
-        "p95_ms": 6.0377108999999844,
-        "total_ms": 70.84829299999984
+        "median_ms": 5.956645500000008,
+        "p95_ms": 6.042054200000004,
+        "total_ms": 71.420751
       },
       {
         "snr_db": -18,
@@ -73,9 +73,9 @@
         "wilson95_high": 0.24249400665524085,
         "airtime_seconds": 2.1872562358276646,
         "plaintext_goodput_bps": 0.0,
-        "median_ms": 3.2155204999999967,
-        "p95_ms": 3.236223099999981,
-        "total_ms": 38.487541999999905
+        "median_ms": 3.267791999999986,
+        "p95_ms": 3.3042187499999955,
+        "total_ms": 39.20366799999994
       },
       {
         "snr_db": -12,
@@ -88,9 +88,9 @@
         "wilson95_high": 0.9110583316059453,
         "airtime_seconds": 3.8666213151927438,
         "plaintext_goodput_bps": 10.862196366366014,
-        "median_ms": 5.868978999999996,
-        "p95_ms": 6.175389099999995,
-        "total_ms": 70.82104099999998
+        "median_ms": 5.950417000000016,
+        "p95_ms": 6.096506400000001,
+        "total_ms": 71.58541700000012
       },
       {
         "snr_db": -12,
@@ -103,9 +103,9 @@
         "wilson95_high": 0.9110583316059453,
         "airtime_seconds": 2.1872562358276646,
         "plaintext_goodput_bps": 19.202139791411806,
-        "median_ms": 3.218500000000006,
-        "p95_ms": 3.392443600000018,
-        "total_ms": 38.877914000000146
+        "median_ms": 3.279521000000017,
+        "p95_ms": 3.435147699999979,
+        "total_ms": 39.621832999999924
       },
       {
         "snr_db": -9,
@@ -118,9 +118,9 @@
         "wilson95_high": 1,
         "airtime_seconds": 3.8666213151927438,
         "plaintext_goodput_bps": 14.48292848848802,
-        "median_ms": 5.833208499999955,
-        "p95_ms": 5.923966999999988,
-        "total_ms": 70.01904199999979
+        "median_ms": 5.919146000000012,
+        "p95_ms": 5.972837499999952,
+        "total_ms": 70.96279199999981
       },
       {
         "snr_db": -9,
@@ -133,9 +133,9 @@
         "wilson95_high": 1,
         "airtime_seconds": 2.1872562358276646,
         "plaintext_goodput_bps": 25.60285305521574,
-        "median_ms": 3.1776459999999815,
-        "p95_ms": 3.2139668500000083,
-        "total_ms": 38.13612699999993
+        "median_ms": 3.2798749999999757,
+        "p95_ms": 3.3429270499999575,
+        "total_ms": 39.314959999999985
       },
       {
         "snr_db": -6,
@@ -148,9 +148,9 @@
         "wilson95_high": 1,
         "airtime_seconds": 3.8666213151927438,
         "plaintext_goodput_bps": 14.48292848848802,
-        "median_ms": 5.6537704999999505,
-        "p95_ms": 6.994785050000017,
-        "total_ms": 70.65928899999994
+        "median_ms": 5.542458500000009,
+        "p95_ms": 5.870610199999982,
+        "total_ms": 67.58620900000005
       },
       {
         "snr_db": -6,
@@ -163,9 +163,9 @@
         "wilson95_high": 1,
         "airtime_seconds": 2.1872562358276646,
         "plaintext_goodput_bps": 25.60285305521574,
-        "median_ms": 3.1571665000000166,
-        "p95_ms": 3.49564215000002,
-        "total_ms": 38.4679570000003
+        "median_ms": 3.084374999999966,
+        "p95_ms": 3.256218750000028,
+        "total_ms": 37.359668000000056
       },
       {
         "snr_db": -3,
@@ -178,9 +178,9 @@
         "wilson95_high": 1,
         "airtime_seconds": 3.8666213151927438,
         "plaintext_goodput_bps": 14.48292848848802,
-        "median_ms": 5.44745800000004,
-        "p95_ms": 5.58160189999997,
-        "total_ms": 65.57878999999991
+        "median_ms": 5.506583000000035,
+        "p95_ms": 5.557062649999989,
+        "total_ms": 66.02808300000015
       },
       {
         "snr_db": -3,
@@ -193,9 +193,9 @@
         "wilson95_high": 1,
         "airtime_seconds": 2.1872562358276646,
         "plaintext_goodput_bps": 25.60285305521574,
-        "median_ms": 3.0351459999999975,
-        "p95_ms": 3.0607185999999444,
-        "total_ms": 36.30220799999972
+        "median_ms": 3.0664379999999483,
+        "p95_ms": 3.10415394999996,
+        "total_ms": 36.76183299999968
       },
       {
         "snr_db": 0,
@@ -208,9 +208,9 @@
         "wilson95_high": 1,
         "airtime_seconds": 3.8666213151927438,
         "plaintext_goodput_bps": 14.48292848848802,
-        "median_ms": 5.460854499999982,
-        "p95_ms": 6.366839549999997,
-        "total_ms": 67.1932519999998
+        "median_ms": 5.46870899999999,
+        "p95_ms": 6.583597699999973,
+        "total_ms": 67.77816799999982
       },
       {
         "snr_db": 0,
@@ -223,9 +223,9 @@
         "wilson95_high": 1,
         "airtime_seconds": 2.1872562358276646,
         "plaintext_goodput_bps": 25.60285305521574,
-        "median_ms": 3.0202920000000404,
-        "p95_ms": 3.3469357499999774,
-        "total_ms": 36.78366800000015
+        "median_ms": 3.0546249999999873,
+        "p95_ms": 3.480107849999996,
+        "total_ms": 37.452540000000226
       },
       {
         "snr_db": 6,
@@ -238,9 +238,9 @@
         "wilson95_high": 1,
         "airtime_seconds": 3.8666213151927438,
         "plaintext_goodput_bps": 14.48292848848802,
-        "median_ms": 5.456416499999932,
-        "p95_ms": 5.548587349999934,
-        "total_ms": 65.46737399999961
+        "median_ms": 5.511937500000045,
+        "p95_ms": 5.632212799999934,
+        "total_ms": 66.05916899999988
       },
       {
         "snr_db": 6,
@@ -253,9 +253,9 @@
         "wilson95_high": 1,
         "airtime_seconds": 2.1872562358276646,
         "plaintext_goodput_bps": 25.60285305521574,
-        "median_ms": 2.9817079999999123,
-        "p95_ms": 3.1694083000000317,
-        "total_ms": 36.16929100000016
+        "median_ms": 3.0386045000000195,
+        "p95_ms": 3.20417080000002,
+        "total_ms": 36.800500000000056
       },
       {
         "snr_db": 12,
@@ -268,9 +268,9 @@
         "wilson95_high": 1,
         "airtime_seconds": 3.8666213151927438,
         "plaintext_goodput_bps": 14.48292848848802,
-        "median_ms": 5.39527099999998,
-        "p95_ms": 5.535604049999984,
-        "total_ms": 64.8830019999998
+        "median_ms": 5.466249999999945,
+        "p95_ms": 5.641078799999946,
+        "total_ms": 65.727124
       },
       {
         "snr_db": 12,
@@ -283,9 +283,9 @@
         "wilson95_high": 1,
         "airtime_seconds": 2.1872562358276646,
         "plaintext_goodput_bps": 25.60285305521574,
-        "median_ms": 2.961500000000001,
-        "p95_ms": 3.0469126499999333,
-        "total_ms": 35.67854200000011
+        "median_ms": 3.0026040000000194,
+        "p95_ms": 3.1019902499999374,
+        "total_ms": 36.23537400000009
       }
     ],
     "dsp_source_sha256": "30b4f2e2a60a292368a0c0d52a7df08dce2b7bf75a746dfa9f892e5f378b599e",
@@ -299,7 +299,7 @@
     "network_transport": "denied and instrumented in Python and Node",
     "physical_acoustic_hardware_tested": false,
     "privacy_scope": "closed synthetic schema, not side-channel or compromised-host protection",
-    "common_source_sha256": "0d2bf061ca16ac4255af7c427624359d7cc5a044b727acc615acedc31f424baf"
+    "common_source_sha256": "5a1157fe5c230dc95911f360ad444be5bfd0e8b7223da2dbfb623120908e8be0"
   },
   "summary": [
     {
@@ -308,9 +308,9 @@
       "successes": 1000,
       "rejected": 0,
       "rate": 1.0,
-      "median_ms": 0.002792,
+      "median_ms": 0.002875,
       "p95_ms": 0.003375,
-      "total_ms": 3.008802
+      "total_ms": 3.086284
     },
     {
       "experiment": "Ed25519_detached_signatures",
@@ -318,9 +318,9 @@
       "successes": 1000,
       "rejected": 0,
       "rate": 1.0,
-      "median_ms": 0.2,
-      "p95_ms": 0.20992645,
-      "total_ms": 200.991071
+      "median_ms": 0.20027050000000002,
+      "p95_ms": 0.21137705,
+      "total_ms": 202.054576
     },
     {
       "experiment": "tampered_ciphertext",
@@ -328,9 +328,9 @@
       "successes": 0,
       "rejected": 100,
       "rate": 1.0,
-      "median_ms": 0.002,
-      "p95_ms": 0.002375,
-      "total_ms": 0.414666
+      "median_ms": 0.0021875,
+      "p95_ms": 0.0025902499999999997,
+      "total_ms": 3.036669
     },
     {
       "experiment": "wrong_key",
@@ -338,9 +338,9 @@
       "successes": 0,
       "rejected": 100,
       "rate": 1.0,
-      "median_ms": 0.002416,
-      "p95_ms": 0.003042,
-      "total_ms": 0.258213
+      "median_ms": 0.002458,
+      "p95_ms": 0.002709,
+      "total_ms": 0.265378
     },
     {
       "experiment": "replay",
@@ -348,9 +348,9 @@
       "successes": 0,
       "rejected": 100,
       "rate": 1.0,
-      "median_ms": 0.001583,
-      "p95_ms": 0.00175,
-      "total_ms": 0.161297
+      "median_ms": 0.001625,
+      "p95_ms": 0.0017101,
+      "total_ms": 0.165709
     },
     {
       "experiment": "truncated",
@@ -359,8 +359,8 @@
       "rejected": 100,
       "rate": 1.0,
       "median_ms": 0.000375,
-      "p95_ms": 0.000417,
-      "total_ms": 0.037833
+      "p95_ms": 0.00041904999999999986,
+      "total_ms": 0.040322
     },
     {
       "experiment": "unknown_field",
@@ -368,9 +368,9 @@
       "successes": 0,
       "rejected": 100,
       "rate": 1.0,
-      "median_ms": 0.000584,
-      "p95_ms": 0.00070805,
-      "total_ms": 0.061464
+      "median_ms": 0.000625,
+      "p95_ms": 0.0007110499999999999,
+      "total_ms": 0.064291
     },
     {
       "experiment": "invalid_enum",
@@ -379,8 +379,8 @@
       "rejected": 100,
       "rate": 1.0,
       "median_ms": 0.000708,
-      "p95_ms": 0.0007910500000000001,
-      "total_ms": 0.07029
+      "p95_ms": 0.0007940499999999998,
+      "total_ms": 0.077667
     }
   ],
   "details": {
@@ -425,8 +425,8 @@
         "raw_crc_ok": false,
         "raw_envelope_hex": null,
         "corrected_codewords": 0,
-        "coded_decode_ms": 6.710374999999999,
-        "raw_decode_ms": 3.992291999999992,
+        "coded_decode_ms": 6.712500000000006,
+        "raw_decode_ms": 4.027417,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -438,8 +438,8 @@
         "raw_crc_ok": false,
         "raw_envelope_hex": null,
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.795041999999995,
-        "raw_decode_ms": 3.22012500000001,
+        "coded_decode_ms": 5.8823329999999885,
+        "raw_decode_ms": 3.284374999999997,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -451,8 +451,8 @@
         "raw_crc_ok": false,
         "raw_envelope_hex": null,
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.920708000000005,
-        "raw_decode_ms": 3.1547079999999994,
+        "coded_decode_ms": 5.9395410000000055,
+        "raw_decode_ms": 3.195999999999998,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -464,8 +464,8 @@
         "raw_crc_ok": false,
         "raw_envelope_hex": null,
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.749957999999992,
-        "raw_decode_ms": 3.2197080000000113,
+        "coded_decode_ms": 5.827624999999998,
+        "raw_decode_ms": 3.199249999999992,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -477,8 +477,8 @@
         "raw_crc_ok": false,
         "raw_envelope_hex": null,
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.844416999999993,
-        "raw_decode_ms": 3.1602499999999907,
+        "coded_decode_ms": 5.855499999999992,
+        "raw_decode_ms": 3.1689580000000035,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -490,8 +490,8 @@
         "raw_crc_ok": false,
         "raw_envelope_hex": null,
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.751874999999984,
-        "raw_decode_ms": 3.1472909999999956,
+        "coded_decode_ms": 5.778708999999992,
+        "raw_decode_ms": 3.190624999999983,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -503,8 +503,8 @@
         "raw_crc_ok": false,
         "raw_envelope_hex": null,
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.912582999999984,
-        "raw_decode_ms": 3.2276250000000175,
+        "coded_decode_ms": 5.901542000000006,
+        "raw_decode_ms": 3.254374999999982,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -516,8 +516,8 @@
         "raw_crc_ok": false,
         "raw_envelope_hex": null,
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.75,
-        "raw_decode_ms": 3.1652909999999963,
+        "coded_decode_ms": 5.948499999999996,
+        "raw_decode_ms": 3.3130840000000035,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -529,8 +529,8 @@
         "raw_crc_ok": false,
         "raw_envelope_hex": null,
         "corrected_codewords": 0,
-        "coded_decode_ms": 6.0120000000000005,
-        "raw_decode_ms": 3.1977500000000134,
+        "coded_decode_ms": 6.07566700000001,
+        "raw_decode_ms": 3.293832999999978,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -542,8 +542,8 @@
         "raw_crc_ok": false,
         "raw_envelope_hex": null,
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.923707999999976,
-        "raw_decode_ms": 3.263750000000016,
+        "coded_decode_ms": 6.046291999999994,
+        "raw_decode_ms": 3.224542000000014,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -555,8 +555,8 @@
         "raw_crc_ok": false,
         "raw_envelope_hex": null,
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.962874999999997,
-        "raw_decode_ms": 3.2325830000000053,
+        "coded_decode_ms": 6.029084000000012,
+        "raw_decode_ms": 3.2862910000000056,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -568,8 +568,8 @@
         "raw_crc_ok": false,
         "raw_envelope_hex": null,
         "corrected_codewords": 0,
-        "coded_decode_ms": 6.005708999999996,
-        "raw_decode_ms": 3.246582999999987,
+        "coded_decode_ms": 5.898750000000007,
+        "raw_decode_ms": 3.2537080000000174,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -581,8 +581,8 @@
         "raw_crc_ok": false,
         "raw_envelope_hex": null,
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.864833000000004,
-        "raw_decode_ms": 3.226875000000007,
+        "coded_decode_ms": 5.820708999999994,
+        "raw_decode_ms": 3.2557919999999854,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -594,8 +594,8 @@
         "raw_crc_ok": false,
         "raw_envelope_hex": null,
         "corrected_codewords": 0,
-        "coded_decode_ms": 6.031166999999982,
-        "raw_decode_ms": 3.208167000000003,
+        "coded_decode_ms": 6.027500000000003,
+        "raw_decode_ms": 3.289457999999996,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -607,8 +607,8 @@
         "raw_crc_ok": false,
         "raw_envelope_hex": null,
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.9214170000000195,
-        "raw_decode_ms": 3.186374999999998,
+        "coded_decode_ms": 5.9798339999999826,
+        "raw_decode_ms": 3.2715419999999824,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -620,8 +620,8 @@
         "raw_crc_ok": false,
         "raw_envelope_hex": null,
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.833458999999976,
-        "raw_decode_ms": 3.171791999999982,
+        "coded_decode_ms": 5.935166000000038,
+        "raw_decode_ms": 3.2977500000000077,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -633,8 +633,8 @@
         "raw_crc_ok": false,
         "raw_envelope_hex": null,
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.838499999999954,
-        "raw_decode_ms": 3.222332999999992,
+        "coded_decode_ms": 5.885041000000001,
+        "raw_decode_ms": 3.263500000000022,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -646,8 +646,8 @@
         "raw_crc_ok": false,
         "raw_envelope_hex": null,
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.978834000000006,
-        "raw_decode_ms": 3.2067499999999995,
+        "coded_decode_ms": 6.0324170000000095,
+        "raw_decode_ms": 3.26724999999999,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -659,8 +659,8 @@
         "raw_crc_ok": false,
         "raw_envelope_hex": null,
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.975499999999954,
-        "raw_decode_ms": 3.229083000000003,
+        "coded_decode_ms": 5.978124999999977,
+        "raw_decode_ms": 3.2683339999999816,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -672,8 +672,8 @@
         "raw_crc_ok": false,
         "raw_envelope_hex": null,
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.843290999999965,
-        "raw_decode_ms": 3.2087080000000014,
+        "coded_decode_ms": 5.900959,
+        "raw_decode_ms": 3.238707999999974,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -685,8 +685,8 @@
         "raw_crc_ok": false,
         "raw_envelope_hex": null,
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.736540999999988,
-        "raw_decode_ms": 3.1289170000000013,
+        "coded_decode_ms": 5.885334,
+        "raw_decode_ms": 3.2794170000000236,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -698,8 +698,8 @@
         "raw_crc_ok": false,
         "raw_envelope_hex": null,
         "corrected_codewords": 0,
-        "coded_decode_ms": 6.045708999999988,
-        "raw_decode_ms": 3.238125000000025,
+        "coded_decode_ms": 6.053832999999997,
+        "raw_decode_ms": 3.2142920000000004,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -711,8 +711,8 @@
         "raw_crc_ok": false,
         "raw_envelope_hex": null,
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.880042000000003,
-        "raw_decode_ms": 3.234666999999945,
+        "coded_decode_ms": 6.0224999999999795,
+        "raw_decode_ms": 3.2454999999999927,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -724,8 +724,8 @@
         "raw_crc_ok": false,
         "raw_envelope_hex": null,
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.899000000000001,
-        "raw_decode_ms": 3.225749999999948,
+        "coded_decode_ms": 5.899333000000013,
+        "raw_decode_ms": 3.3121249999999804,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -737,8 +737,8 @@
         "raw_crc_ok": false,
         "raw_envelope_hex": null,
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.867457999999999,
-        "raw_decode_ms": 3.197167000000036,
+        "coded_decode_ms": 5.878499999999974,
+        "raw_decode_ms": 3.250208999999984,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -750,8 +750,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "000000000000000000000001a9085475c07fd3d04ffbe0953a9b94a81f800bea07d716",
         "corrected_codewords": 0,
-        "coded_decode_ms": 6.225415999999996,
-        "raw_decode_ms": 3.4285830000000033,
+        "coded_decode_ms": 6.159917000000007,
+        "raw_decode_ms": 3.482791999999961,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -763,8 +763,8 @@
         "raw_crc_ok": false,
         "raw_envelope_hex": null,
         "corrected_codewords": 0,
-        "coded_decode_ms": 6.075084000000004,
-        "raw_decode_ms": 3.212333000000001,
+        "coded_decode_ms": 6.028957999999989,
+        "raw_decode_ms": 3.396165999999994,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -776,8 +776,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "0000000000000000000000032a13c6b666d3628378f9dd4e2560323c8452dd1b9418e0",
         "corrected_codewords": 0,
-        "coded_decode_ms": 6.134457999999995,
-        "raw_decode_ms": 3.362875000000031,
+        "coded_decode_ms": 6.044624999999996,
+        "raw_decode_ms": 3.2711669999999913,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -789,8 +789,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "00000000000000000000000464aca36022c606b573172faeb88c1991515fab76ea082f",
         "corrected_codewords": 1,
-        "coded_decode_ms": 5.755375000000015,
-        "raw_decode_ms": 3.266208000000006,
+        "coded_decode_ms": 6.013875000000041,
+        "raw_decode_ms": 3.255042000000003,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -802,8 +802,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "000000000000000000000005d6ec252bb855144bb17632900cc367d2b62b011374c40e",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.780666999999994,
-        "raw_decode_ms": 3.224667000000011,
+        "coded_decode_ms": 5.8371250000000146,
+        "raw_decode_ms": 3.292250000000024,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -815,8 +815,8 @@
         "raw_crc_ok": false,
         "raw_envelope_hex": null,
         "corrected_codewords": 2,
-        "coded_decode_ms": 5.887916999999959,
-        "raw_decode_ms": 3.238708000000031,
+        "coded_decode_ms": 5.937457999999992,
+        "raw_decode_ms": 3.269958000000031,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -828,8 +828,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "000000000000000000000007fd2649dba43692cdf4c4f41b1a46e45325c34cf45b1a3a",
         "corrected_codewords": 1,
-        "coded_decode_ms": 5.870499999999993,
-        "raw_decode_ms": 3.1765830000000506,
+        "coded_decode_ms": 5.98983400000003,
+        "raw_decode_ms": 3.2929999999999495,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -841,8 +841,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "00000000000000000000000820bfb98a70259eedd08398b02f6553326ad153d0cbc598",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.838124999999991,
-        "raw_decode_ms": 3.1874159999999847,
+        "coded_decode_ms": 5.85450000000003,
+        "raw_decode_ms": 3.2878750000000423,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -854,8 +854,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "0000000000000000000000099427251d1e500d9db43440a9ec4cff09334f24cdf7d9dc",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.772791999999981,
-        "raw_decode_ms": 3.130124999999964,
+        "coded_decode_ms": 5.939791000000014,
+        "raw_decode_ms": 3.232332999999983,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -867,8 +867,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "00000000000000000000000ad72513a2837c98d071b7c2cb4c426925fbe7a6d8e3378f",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.739291000000037,
-        "raw_decode_ms": 3.205916000000002,
+        "coded_decode_ms": 5.942375000000027,
+        "raw_decode_ms": 3.3306249999999977,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -880,8 +880,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "00000000000000000000000b5c4381e8eecafece74046e96547ea0168b851ebc1f9b64",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.873958000000016,
-        "raw_decode_ms": 3.247333000000026,
+        "coded_decode_ms": 5.958459000000005,
+        "raw_decode_ms": 3.260415999999964,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -893,8 +893,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "0000000000000000000000008406750765a35fd2f5c8ea8838a2a692a93dedb4bafc59",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.800125000000037,
-        "raw_decode_ms": 3.163417000000038,
+        "coded_decode_ms": 5.969124999999963,
+        "raw_decode_ms": 3.262540999999999,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -906,8 +906,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "000000000000000000000001a9085475c07fd3d04ffbe0953a9b94a81f800bea07d716",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.8577079999999455,
-        "raw_decode_ms": 3.164041999999995,
+        "coded_decode_ms": 5.871374999999944,
+        "raw_decode_ms": 3.3001669999999876,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -919,8 +919,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "000000000000000000000002bd1f81c2ef0f7d854179e5310b73b978ced04e788cbc34",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.745083000000022,
-        "raw_decode_ms": 3.1897500000000036,
+        "coded_decode_ms": 5.977374999999938,
+        "raw_decode_ms": 3.2428750000000264,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -932,8 +932,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "0000000000000000000000032a13c6b666d3628378f9dd4e2560323c8452dd1b9418e0",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.858333000000016,
-        "raw_decode_ms": 3.1402919999999312,
+        "coded_decode_ms": 5.962999999999965,
+        "raw_decode_ms": 3.3372079999999187,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -945,8 +945,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "00000000000000000000000464aca36022c606b573172faeb88c1991515fab76ea082f",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.801249999999982,
-        "raw_decode_ms": 3.2207499999999527,
+        "coded_decode_ms": 5.90625,
+        "raw_decode_ms": 3.2274589999999534,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -958,8 +958,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "000000000000000000000005d6ec252bb855144bb17632900cc367d2b62b011374c40e",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.763624999999934,
-        "raw_decode_ms": 3.208417000000054,
+        "coded_decode_ms": 5.9335419999999885,
+        "raw_decode_ms": 3.2282920000000104,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -971,8 +971,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "0000000000000000000000067e7b7ab41c1b60c9b9fad33f4be6526924a7dee3cb343b",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.934417000000053,
-        "raw_decode_ms": 3.192625000000021,
+        "coded_decode_ms": 5.926249999999982,
+        "raw_decode_ms": 3.349917000000005,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -984,8 +984,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "000000000000000000000007fd2649dba43692cdf4c4f41b1a46e45325c34cf45b1a3a",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.900999999999954,
-        "raw_decode_ms": 3.1552920000000313,
+        "coded_decode_ms": 5.912042000000042,
+        "raw_decode_ms": 3.241209000000026,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -997,8 +997,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "00000000000000000000000820bfb98a70259eedd08398b02f6553326ad153d0cbc598",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.8399169999999,
-        "raw_decode_ms": 3.162458000000015,
+        "coded_decode_ms": 5.951416999999992,
+        "raw_decode_ms": 3.2972089999999525,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1010,8 +1010,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "0000000000000000000000099427251d1e500d9db43440a9ec4cff09334f24cdf7d9dc",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.915416999999934,
-        "raw_decode_ms": 3.1757920000000013,
+        "coded_decode_ms": 5.801916000000006,
+        "raw_decode_ms": 3.300624999999968,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1023,8 +1023,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "00000000000000000000000ad72513a2837c98d071b7c2cb4c426925fbe7a6d8e3378f",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.7756669999999986,
-        "raw_decode_ms": 3.183791999999926,
+        "coded_decode_ms": 5.849874999999997,
+        "raw_decode_ms": 3.229583000000048,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1036,8 +1036,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "00000000000000000000000b5c4381e8eecafece74046e96547ea0168b851ebc1f9b64",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.82650000000001,
-        "raw_decode_ms": 3.179499999999962,
+        "coded_decode_ms": 5.900624999999991,
+        "raw_decode_ms": 3.29787500000009,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1049,8 +1049,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "0000000000000000000000008406750765a35fd2f5c8ea8838a2a692a93dedb4bafc59",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.8180830000000014,
-        "raw_decode_ms": 3.2169159999999692,
+        "coded_decode_ms": 5.832084000000009,
+        "raw_decode_ms": 3.202209000000039,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1062,8 +1062,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "000000000000000000000001a9085475c07fd3d04ffbe0953a9b94a81f800bea07d716",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.6779169999999795,
-        "raw_decode_ms": 3.2315830000000005,
+        "coded_decode_ms": 5.8571660000000065,
+        "raw_decode_ms": 3.2290830000000597,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1075,8 +1075,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "000000000000000000000002bd1f81c2ef0f7d854179e5310b73b978ced04e788cbc34",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.902541000000042,
-        "raw_decode_ms": 3.1774169999999913,
+        "coded_decode_ms": 5.844499999999925,
+        "raw_decode_ms": 3.2508750000000646,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1088,8 +1088,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "0000000000000000000000032a13c6b666d3628378f9dd4e2560323c8452dd1b9418e0",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.824207999999999,
-        "raw_decode_ms": 3.2392919999999776,
+        "coded_decode_ms": 5.887041999999951,
+        "raw_decode_ms": 3.2627499999999827,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1101,8 +1101,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "00000000000000000000000464aca36022c606b573172faeb88c1991515fab76ea082f",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.4535829999999805,
-        "raw_decode_ms": 3.01241600000003,
+        "coded_decode_ms": 5.546291999999994,
+        "raw_decode_ms": 3.0551249999999754,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1114,8 +1114,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "000000000000000000000005d6ec252bb855144bb17632900cc367d2b62b011374c40e",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.60166700000002,
-        "raw_decode_ms": 3.1274170000000368,
+        "coded_decode_ms": 5.444624999999974,
+        "raw_decode_ms": 3.1105420000000095,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1127,8 +1127,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "0000000000000000000000067e7b7ab41c1b60c9b9fad33f4be6526924a7dee3cb343b",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.59212500000001,
-        "raw_decode_ms": 3.195583000000056,
+        "coded_decode_ms": 5.574583000000075,
+        "raw_decode_ms": 3.0422909999999774,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1140,8 +1140,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "000000000000000000000007fd2649dba43692cdf4c4f41b1a46e45325c34cf45b1a3a",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.603707999999983,
-        "raw_decode_ms": 3.1324160000000347,
+        "coded_decode_ms": 5.538625000000025,
+        "raw_decode_ms": 3.094500000000039,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1153,8 +1153,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "00000000000000000000000820bfb98a70259eedd08398b02f6553326ad153d0cbc598",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.659415999999965,
-        "raw_decode_ms": 3.123625000000061,
+        "coded_decode_ms": 5.536000000000058,
+        "raw_decode_ms": 2.998083999999949,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1166,8 +1166,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "0000000000000000000000099427251d1e500d9db43440a9ec4cff09334f24cdf7d9dc",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.5481660000000375,
-        "raw_decode_ms": 3.136916000000042,
+        "coded_decode_ms": 5.537417000000005,
+        "raw_decode_ms": 2.9988340000001017,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1179,8 +1179,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "00000000000000000000000ad72513a2837c98d071b7c2cb4c426925fbe7a6d8e3378f",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.648124999999936,
-        "raw_decode_ms": 3.065417000000025,
+        "coded_decode_ms": 5.509957999999983,
+        "raw_decode_ms": 3.0742499999998927,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1192,8 +1192,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "00000000000000000000000b5c4381e8eecafece74046e96547ea0168b851ebc1f9b64",
         "corrected_codewords": 0,
-        "coded_decode_ms": 8.32974999999999,
-        "raw_decode_ms": 3.8089590000000726,
+        "coded_decode_ms": 5.477917000000048,
+        "raw_decode_ms": 3.0411249999999654,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1205,8 +1205,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "0000000000000000000000008406750765a35fd2f5c8ea8838a2a692a93dedb4bafc59",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.569208000000003,
-        "raw_decode_ms": 3.0649579999999332,
+        "coded_decode_ms": 5.521499999999946,
+        "raw_decode_ms": 3.1042919999999867,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1218,8 +1218,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "000000000000000000000001a9085475c07fd3d04ffbe0953a9b94a81f800bea07d716",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.596749999999929,
-        "raw_decode_ms": 3.031959000000029,
+        "coded_decode_ms": 5.443457999999964,
+        "raw_decode_ms": 3.0737080000000105,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1231,8 +1231,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "000000000000000000000002bd1f81c2ef0f7d854179e5310b73b978ced04e788cbc34",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.460458000000017,
-        "raw_decode_ms": 3.0174580000000333,
+        "coded_decode_ms": 5.576542000000018,
+        "raw_decode_ms": 3.0674589999999853,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1244,8 +1244,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "0000000000000000000000032a13c6b666d3628378f9dd4e2560323c8452dd1b9418e0",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.434458000000063,
-        "raw_decode_ms": 2.97845899999993,
+        "coded_decode_ms": 5.50262500000008,
+        "raw_decode_ms": 3.071749999999952,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1257,8 +1257,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "00000000000000000000000464aca36022c606b573172faeb88c1991515fab76ea082f",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.495041000000015,
-        "raw_decode_ms": 3.0567499999999654,
+        "coded_decode_ms": 5.4796250000000555,
+        "raw_decode_ms": 3.0579159999999774,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1270,8 +1270,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "000000000000000000000005d6ec252bb855144bb17632900cc367d2b62b011374c40e",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.417541999999912,
-        "raw_decode_ms": 3.046958000000018,
+        "coded_decode_ms": 5.541124999999965,
+        "raw_decode_ms": 3.047290999999973,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1283,8 +1283,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "0000000000000000000000067e7b7ab41c1b60c9b9fad33f4be6526924a7dee3cb343b",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.504000000000019,
-        "raw_decode_ms": 2.9729999999999563,
+        "coded_decode_ms": 5.457625000000007,
+        "raw_decode_ms": 3.1040409999999383,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1296,8 +1296,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "000000000000000000000007fd2649dba43692cdf4c4f41b1a46e45325c34cf45b1a3a",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.499167000000057,
-        "raw_decode_ms": 3.0572499999999536,
+        "coded_decode_ms": 5.5270830000000615,
+        "raw_decode_ms": 3.050583999999958,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1309,8 +1309,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "00000000000000000000000820bfb98a70259eedd08398b02f6553326ad153d0cbc598",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.401124999999979,
-        "raw_decode_ms": 2.968417000000045,
+        "coded_decode_ms": 5.52029200000004,
+        "raw_decode_ms": 3.042165999999952,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1322,8 +1322,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "0000000000000000000000099427251d1e500d9db43440a9ec4cff09334f24cdf7d9dc",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.411040999999955,
-        "raw_decode_ms": 3.049415999999951,
+        "coded_decode_ms": 5.451709000000051,
+        "raw_decode_ms": 3.067916999999966,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1335,8 +1335,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "00000000000000000000000ad72513a2837c98d071b7c2cb4c426925fbe7a6d8e3378f",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.401124999999979,
-        "raw_decode_ms": 3.038332999999966,
+        "coded_decode_ms": 5.510540999999989,
+        "raw_decode_ms": 3.009292000000073,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1348,8 +1348,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "00000000000000000000000b5c4381e8eecafece74046e96547ea0168b851ebc1f9b64",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.3888749999999845,
-        "raw_decode_ms": 3.0192499999999427,
+        "coded_decode_ms": 5.495957999999973,
+        "raw_decode_ms": 3.0654169999999112,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1361,8 +1361,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "0000000000000000000000008406750765a35fd2f5c8ea8838a2a692a93dedb4bafc59",
         "corrected_codewords": 0,
-        "coded_decode_ms": 6.462792000000036,
-        "raw_decode_ms": 3.2959169999999176,
+        "coded_decode_ms": 5.402249999999981,
+        "raw_decode_ms": 3.0356669999999895,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1374,8 +1374,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "000000000000000000000001a9085475c07fd3d04ffbe0953a9b94a81f800bea07d716",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.518958999999995,
-        "raw_decode_ms": 3.4092920000000504,
+        "coded_decode_ms": 5.441542000000027,
+        "raw_decode_ms": 3.032375000000002,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1387,8 +1387,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "000000000000000000000002bd1f81c2ef0f7d854179e5310b73b978ced04e788cbc34",
         "corrected_codewords": 0,
-        "coded_decode_ms": 6.288332999999966,
-        "raw_decode_ms": 3.011041999999975,
+        "coded_decode_ms": 6.905416999999943,
+        "raw_decode_ms": 3.4270830000000387,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1400,8 +1400,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "0000000000000000000000032a13c6b666d3628378f9dd4e2560323c8452dd1b9418e0",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.386833000000024,
-        "raw_decode_ms": 3.0526250000000346,
+        "coded_decode_ms": 5.535624999999982,
+        "raw_decode_ms": 3.544915999999944,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1413,8 +1413,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "00000000000000000000000464aca36022c606b573172faeb88c1991515fab76ea082f",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.474417000000017,
-        "raw_decode_ms": 2.964917000000014,
+        "coded_decode_ms": 6.320290999999997,
+        "raw_decode_ms": 3.0325410000000375,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1426,8 +1426,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "000000000000000000000005d6ec252bb855144bb17632900cc367d2b62b011374c40e",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.425166999999988,
-        "raw_decode_ms": 3.017417000000023,
+        "coded_decode_ms": 5.488374999999905,
+        "raw_decode_ms": 3.090583000000038,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1439,8 +1439,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "0000000000000000000000067e7b7ab41c1b60c9b9fad33f4be6526924a7dee3cb343b",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.362416999999937,
-        "raw_decode_ms": 3.0924580000000788,
+        "coded_decode_ms": 5.4814589999999725,
+        "raw_decode_ms": 3.073582999999985,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1452,8 +1452,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "000000000000000000000007fd2649dba43692cdf4c4f41b1a46e45325c34cf45b1a3a",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.482291000000032,
-        "raw_decode_ms": 2.9670409999999947,
+        "coded_decode_ms": 5.438041999999996,
+        "raw_decode_ms": 2.9807499999999436,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1465,8 +1465,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "00000000000000000000000820bfb98a70259eedd08398b02f6553326ad153d0cbc598",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.447291999999948,
-        "raw_decode_ms": 3.0558750000000146,
+        "coded_decode_ms": 5.455959000000007,
+        "raw_decode_ms": 3.0906669999999394,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1478,8 +1478,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "0000000000000000000000099427251d1e500d9db43440a9ec4cff09334f24cdf7d9dc",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.409958999999958,
-        "raw_decode_ms": 2.9389170000000604,
+        "coded_decode_ms": 5.485457999999994,
+        "raw_decode_ms": 3.007374999999911,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1491,8 +1491,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "00000000000000000000000ad72513a2837c98d071b7c2cb4c426925fbe7a6d8e3378f",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.426959000000011,
-        "raw_decode_ms": 2.9549999999999272,
+        "coded_decode_ms": 5.41966699999989,
+        "raw_decode_ms": 2.9982080000002043,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1504,8 +1504,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "00000000000000000000000b5c4381e8eecafece74046e96547ea0168b851ebc1f9b64",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.507832999999891,
-        "raw_decode_ms": 3.0231670000000577,
+        "coded_decode_ms": 5.404083000000128,
+        "raw_decode_ms": 3.138792000000194,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1517,8 +1517,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "0000000000000000000000008406750765a35fd2f5c8ea8838a2a692a93dedb4bafc59",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.419916999999941,
-        "raw_decode_ms": 2.94987500000002,
+        "coded_decode_ms": 5.614624999999933,
+        "raw_decode_ms": 3.0290410000000065,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1530,8 +1530,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "000000000000000000000001a9085475c07fd3d04ffbe0953a9b94a81f800bea07d716",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.481667000000016,
-        "raw_decode_ms": 2.928542000000107,
+        "coded_decode_ms": 5.536125000000084,
+        "raw_decode_ms": 3.2792919999999413,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1543,8 +1543,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "000000000000000000000002bd1f81c2ef0f7d854179e5310b73b978ced04e788cbc34",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.5343749999999545,
-        "raw_decode_ms": 3.2226670000000013,
+        "coded_decode_ms": 5.653708999999935,
+        "raw_decode_ms": 3.0844170000000304,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1556,8 +1556,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "0000000000000000000000032a13c6b666d3628378f9dd4e2560323c8452dd1b9418e0",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.444291999999905,
-        "raw_decode_ms": 3.125833000000057,
+        "coded_decode_ms": 5.57654199999979,
+        "raw_decode_ms": 3.054540999999972,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1569,8 +1569,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "00000000000000000000000464aca36022c606b573172faeb88c1991515fab76ea082f",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.4919159999999465,
-        "raw_decode_ms": 2.969916000000012,
+        "coded_decode_ms": 5.398417000000109,
+        "raw_decode_ms": 3.0292919999999413,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1582,8 +1582,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "000000000000000000000005d6ec252bb855144bb17632900cc367d2b62b011374c40e",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.56595799999991,
-        "raw_decode_ms": 3.1097500000000764,
+        "coded_decode_ms": 5.407208999999966,
+        "raw_decode_ms": 2.9943339999999807,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1595,8 +1595,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "0000000000000000000000067e7b7ab41c1b60c9b9fad33f4be6526924a7dee3cb343b",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.4612909999998465,
-        "raw_decode_ms": 2.9927500000001146,
+        "coded_decode_ms": 5.397500000000036,
+        "raw_decode_ms": 3.006458000000066,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1608,8 +1608,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "000000000000000000000007fd2649dba43692cdf4c4f41b1a46e45325c34cf45b1a3a",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.4568329999999605,
-        "raw_decode_ms": 2.948082999999997,
+        "coded_decode_ms": 5.59029200000009,
+        "raw_decode_ms": 3.142708000000084,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1621,8 +1621,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "00000000000000000000000820bfb98a70259eedd08398b02f6553326ad153d0cbc598",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.420333000000028,
-        "raw_decode_ms": 2.989332999999988,
+        "coded_decode_ms": 5.563290999999936,
+        "raw_decode_ms": 3.0479170000000977,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1634,8 +1634,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "0000000000000000000000099427251d1e500d9db43440a9ec4cff09334f24cdf7d9dc",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.28366700000015,
-        "raw_decode_ms": 2.9651249999999436,
+        "coded_decode_ms": 5.430374999999913,
+        "raw_decode_ms": 3.008624999999938,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1647,8 +1647,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "00000000000000000000000ad72513a2837c98d071b7c2cb4c426925fbe7a6d8e3378f",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.455999999999904,
-        "raw_decode_ms": 2.974082999999837,
+        "coded_decode_ms": 5.403334000000086,
+        "raw_decode_ms": 3.105542000000014,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1660,8 +1660,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "00000000000000000000000b5c4381e8eecafece74046e96547ea0168b851ebc1f9b64",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.451125000000047,
-        "raw_decode_ms": 2.9933340000000044,
+        "coded_decode_ms": 5.4877500000000055,
+        "raw_decode_ms": 3.018332999999984,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1673,8 +1673,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "0000000000000000000000008406750765a35fd2f5c8ea8838a2a692a93dedb4bafc59",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.384667000000036,
-        "raw_decode_ms": 2.926666999999952,
+        "coded_decode_ms": 5.478375000000142,
+        "raw_decode_ms": 2.9913329999999405,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1686,8 +1686,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "000000000000000000000001a9085475c07fd3d04ffbe0953a9b94a81f800bea07d716",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.539040999999997,
-        "raw_decode_ms": 2.9769169999999576,
+        "coded_decode_ms": 5.397832999999991,
+        "raw_decode_ms": 3.032165999999961,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1699,8 +1699,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "000000000000000000000002bd1f81c2ef0f7d854179e5310b73b978ced04e788cbc34",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.464666999999963,
-        "raw_decode_ms": 2.9166669999999613,
+        "coded_decode_ms": 5.464165999999977,
+        "raw_decode_ms": 3.0111249999999927,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1712,8 +1712,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "0000000000000000000000032a13c6b666d3628378f9dd4e2560323c8452dd1b9418e0",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.4055419999999685,
-        "raw_decode_ms": 3.058416999999963,
+        "coded_decode_ms": 5.469708000000082,
+        "raw_decode_ms": 2.994083000000046,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1725,8 +1725,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "00000000000000000000000464aca36022c606b573172faeb88c1991515fab76ea082f",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.339666999999963,
-        "raw_decode_ms": 3.0184580000000096,
+        "coded_decode_ms": 5.468333999999913,
+        "raw_decode_ms": 2.990542000000005,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1738,8 +1738,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "000000000000000000000005d6ec252bb855144bb17632900cc367d2b62b011374c40e",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.532791999999972,
-        "raw_decode_ms": 2.965750000000071,
+        "coded_decode_ms": 5.372290999999905,
+        "raw_decode_ms": 3.0302080000001297,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1751,8 +1751,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "0000000000000000000000067e7b7ab41c1b60c9b9fad33f4be6526924a7dee3cb343b",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.3227499999998145,
-        "raw_decode_ms": 3.037499999999909,
+        "coded_decode_ms": 5.460417000000007,
+        "raw_decode_ms": 2.9924579999999423,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1764,8 +1764,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "000000000000000000000007fd2649dba43692cdf4c4f41b1a46e45325c34cf45b1a3a",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.405250000000024,
-        "raw_decode_ms": 2.9561660000001666,
+        "coded_decode_ms": 5.488667000000078,
+        "raw_decode_ms": 3.0306250000001,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1777,8 +1777,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "00000000000000000000000820bfb98a70259eedd08398b02f6553326ad153d0cbc598",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.370167000000038,
-        "raw_decode_ms": 2.977624999999989,
+        "coded_decode_ms": 5.372250000000122,
+        "raw_decode_ms": 2.966583000000128,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1790,8 +1790,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "0000000000000000000000099427251d1e500d9db43440a9ec4cff09334f24cdf7d9dc",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.385291999999936,
-        "raw_decode_ms": 2.9370410000001357,
+        "coded_decode_ms": 5.459916999999905,
+        "raw_decode_ms": 2.988207999999986,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1803,8 +1803,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "00000000000000000000000ad72513a2837c98d071b7c2cb4c426925fbe7a6d8e3378f",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.314041999999972,
-        "raw_decode_ms": 2.9500840000000608,
+        "coded_decode_ms": 5.712624999999889,
+        "raw_decode_ms": 3.083708999999999,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       },
@@ -1816,8 +1816,8 @@
         "raw_crc_ok": true,
         "raw_envelope_hex": "00000000000000000000000b5c4381e8eecafece74046e96547ea0168b851ebc1f9b64",
         "corrected_codewords": 0,
-        "coded_decode_ms": 5.419125000000122,
-        "raw_decode_ms": 2.957249999999931,
+        "coded_decode_ms": 5.582540999999992,
+        "raw_decode_ms": 3.1243339999998625,
         "coded_airtime_seconds": 3.8666213151927438,
         "raw_airtime_seconds": 2.1872562358276646
       }

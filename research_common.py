@@ -93,7 +93,7 @@ def write_results(output: Path, study: str, rows: list[dict], *,
     (output / "results.json").write_text(json.dumps(report, indent=2, allow_nan=False) + "\n")
     if rows:
         with (output / "summary.csv").open("w", newline="") as stream:
-            writer = csv.DictWriter(stream, fieldnames=list(rows[0]))
+            writer = csv.DictWriter(stream, fieldnames=list(rows[0]), lineterminator="\n")
             writer.writeheader()
             writer.writerows(rows)
     (output / "RESULTS.md").write_text(
