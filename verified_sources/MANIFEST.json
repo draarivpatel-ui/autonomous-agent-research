@@ -1,0 +1,56 @@
+[
+  {
+    "repository": "museweaver",
+    "file": "formal_verifier.py",
+    "base_commit": "032a606e9a002cd43e10a15bb7fbb43df81b7517",
+    "source_sha256": "9132e0e7c10f2eeb1084c8e46deb8759a4c1c6dc3a6cf755ec5fe1d84adde3ff"
+  },
+  {
+    "repository": "museweaver",
+    "file": "LICENSE",
+    "base_commit": "032a606e9a002cd43e10a15bb7fbb43df81b7517",
+    "source_sha256": "27dedf60295b461b174f87af826a10796d0550ce8376123168fa6d23aef103a4"
+  },
+  {
+    "repository": "blast-radius-zero",
+    "file": "gate.py",
+    "base_commit": "098c2511c398319613ebd8fb4cadeac97cd5f26a",
+    "source_sha256": "ab95435c73ec1dcaf697a461286248de5acb125fd4d922c26cb1c447df3ea2f3"
+  },
+  {
+    "repository": "blast-radius-zero",
+    "file": "js/policy-engine.js",
+    "base_commit": "098c2511c398319613ebd8fb4cadeac97cd5f26a",
+    "source_sha256": "5b00018dce5886769eb4b1fad6a40ead2e538db9c4cf5d51470770266d0a66d9"
+  },
+  {
+    "repository": "blast-radius-zero",
+    "file": "js/manifest-gate.js",
+    "base_commit": "098c2511c398319613ebd8fb4cadeac97cd5f26a",
+    "source_sha256": "b3809aa11f039e19b1122f659d62acdd97b4f982bec6905c16447a4431b50f66"
+  },
+  {
+    "repository": "blast-radius-zero",
+    "file": "LICENSE",
+    "base_commit": "098c2511c398319613ebd8fb4cadeac97cd5f26a",
+    "source_sha256": "27dedf60295b461b174f87af826a10796d0550ce8376123168fa6d23aef103a4"
+  },
+  {
+    "repository": "AirCast",
+    "file": "js/modem-dsp.js",
+    "base_commit": "89938231583d74c05e96bb66676140169ccbb19d",
+    "source_sha256": "30b4f2e2a60a292368a0c0d52a7df08dce2b7bf75a746dfa9f892e5f378b599e"
+  },
+  {
+    "repository": "AirCast",
+    "file": "js/private-packets.js",
+    "base_commit": "89938231583d74c05e96bb66676140169ccbb19d",
+    "source_sha256": "573863bd4c2b7d04dce733721075e27981f7b71b7e4a88008c6c3f36d5341817"
+  },
+  {
+    "repository": "AirCast",
+    "file": "LICENSE",
+    "base_commit": "89938231583d74c05e96bb66676140169ccbb19d",
+    "source_sha256": "f5eee63fb76b6585d82d7c3e7e7c5136331316c3256e72cb6bdf587f234d20de"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "target": "museweaver",
+    "text_files_scanned": 18,
+    "findings": [],
+    "media_scope": "binary media and existing history not covered by text gate"
+  },
+  {
+    "target": "blast-radius-zero",
+    "text_files_scanned": 23,
+    "findings": [],
+    "media_scope": "binary media and existing history not covered by text gate"
+  },
+  {
+    "target": "spatial-hand-studio",
+    "text_files_scanned": 11,
+    "findings": [],
+    "media_scope": "binary media and existing history not covered by text gate"
+  },
+  {
+    "target": "AirCast",
+    "text_files_scanned": 14,
+    "findings": [],
+    "media_scope": "binary media and existing history not covered by text gate"
+  },
+  {
+    "target": "kaggle_submissions",
+    "text_files_scanned": 75,
+    "findings": [],
+    "media_scope": "binary media and existing history not covered by text gate"
+  }
+]

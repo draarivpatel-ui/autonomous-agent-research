@@ -1,0 +1,233 @@
+{
+  "schema_version": 1,
+  "study": "RMSNorm kernel optimization",
+  "generated_utc": "2026-11-05T01:15:26.354671+00:00",
+  "environment": {
+    "system": "Darwin",
+    "architecture": "arm64",
+    "python": "3.13.18",
+    "dependencies": {
+      "numpy": "2.3.4",
+      "z3-solver": "4.15.3.0",
+      "cryptography": "46.0.3"
+    }
+  },
+  "metadata": {
+    "seed": 2026,
+    "warmup": 10,
+    "cpu_repeats": 50,
+    "gpu": {
+      "available": false,
+      "reason": "Optional torch and/or Triton are not installed"
+    },
+    "gpu_measurements_collected": false,
+    "metal": {
+      "available": true,
+      "backend": "Metal",
+      "mlx": "0.29.3"
+    },
+    "metal_measurements_collected": true,
+    "flagos_target_hardware_validated": false,
+    "tolerance_rtol": 2e-05,
+    "tolerance_atol": 2e-05,
+    "benchmark_source_sha256": "09d584c39a212633b6226765906e692b701f9d71323e913c33eacab9f4981b01",
+    "triton_kernel_sha256": "a2a870fb8e4fdcd7c9dff71fe9dac902b55008a88c1125d874bbe93722e2599e",
+    "metal_kernel_sha256": "8a21e056fffa6d2f44ced43e769029512623c4af267b2ca7422a3f64a2cd1369",
+    "common_source_sha256": "0d2bf061ca16ac4255af7c427624359d7cc5a044b727acc615acedc31f424baf"
+  },
+  "summary": [
+    {
+      "backend": "cpu",
+      "implementation": "numpy_materialized",
+      "rows": 32,
+      "features": 128,
+      "dtype": "float32",
+      "max_absolute_error": 1.430511474609375e-06,
+      "num_warps": 0,
+      "median_ms": 0.005020500000000001,
+      "p95_ms": 0.0054391,
+      "total_ms": 0.25504
+    },
+    {
+      "backend": "cpu",
+      "implementation": "numpy_fused_reduction",
+      "rows": 32,
+      "features": 128,
+      "dtype": "float32",
+      "max_absolute_error": 1.430511474609375e-06,
+      "num_warps": 0,
+      "median_ms": 0.004083,
+      "p95_ms": 0.00425465,
+      "total_ms": 0.204879
+    },
+    {
+      "backend": "cpu",
+      "implementation": "numpy_materialized",
+      "rows": 512,
+      "features": 1024,
+      "dtype": "float32",
+      "max_absolute_error": 2.86102294921875e-06,
+      "num_warps": 0,
+      "median_ms": 0.2028335,
+      "p95_ms": 0.21224564999999998,
+      "total_ms": 10.162915
+    },
+    {
+      "backend": "cpu",
+      "implementation": "numpy_fused_reduction",
+      "rows": 512,
+      "features": 1024,
+      "dtype": "float32",
+      "max_absolute_error": 2.86102294921875e-06,
+      "num_warps": 0,
+      "median_ms": 0.166417,
+      "p95_ms": 0.17256425,
+      "total_ms": 8.324751
+    },
+    {
+      "backend": "cpu",
+      "implementation": "numpy_materialized",
+      "rows": 1024,
+      "features": 4096,
+      "dtype": "float32",
+      "max_absolute_error": 3.814697265625e-06,
+      "num_warps": 0,
+      "median_ms": 1.7165205000000001,
+      "p95_ms": 1.7670939,
+      "total_ms": 86.051543
+    },
+    {
+      "backend": "cpu",
+      "implementation": "numpy_fused_reduction",
+      "rows": 1024,
+      "features": 4096,
+      "dtype": "float32",
+      "max_absolute_error": 3.814697265625e-06,
+      "num_warps": 0,
+      "median_ms": 1.5521875,
+      "p95_ms": 1.6170421499999998,
+      "total_ms": 78.466749
+    },
+    {
+      "backend": "cpu",
+      "implementation": "numpy_materialized",
+      "rows": 33,
+      "features": 513,
+      "dtype": "float32",
+      "max_absolute_error": 1.430511474609375e-06,
+      "num_warps": 0,
+      "median_ms": 0.011667,
+      "p95_ms": 0.0118561,
+      "total_ms": 0.584457
+    },
+    {
+      "backend": "cpu",
+      "implementation": "numpy_fused_reduction",
+      "rows": 33,
+      "features": 513,
+      "dtype": "float32",
+      "max_absolute_error": 1.430511474609375e-06,
+      "num_warps": 0,
+      "median_ms": 0.008958,
+      "p95_ms": 0.009125,
+      "total_ms": 0.448244
+    },
+    {
+      "backend": "metal",
+      "implementation": "mlx_expression",
+      "rows": 32,
+      "features": 128,
+      "dtype": "float32",
+      "max_absolute_error": 9.5367431640625e-07,
+      "num_warps": 0,
+      "median_ms": 0.3373545,
+      "p95_ms": 0.3689689,
+      "total_ms": 14.505665
+    },
+    {
+      "backend": "metal",
+      "implementation": "metal_fused",
+      "rows": 32,
+      "features": 128,
+      "dtype": "float32",
+      "max_absolute_error": 9.5367431640625e-07,
+      "num_warps": 0,
+      "median_ms": 0.17633300000000002,
+      "p95_ms": 0.1988974,
+      "total_ms": 8.816246
+    },
+    {
+      "backend": "metal",
+      "implementation": "mlx_expression",
+      "rows": 512,
+      "features": 1024,
+      "dtype": "float32",
+      "max_absolute_error": 1.430511474609375e-06,
+      "num_warps": 0,
+      "median_ms": 0.235875,
+      "p95_ms": 0.25516035,
+      "total_ms": 11.80475
+    },
+    {
+      "backend": "metal",
+      "implementation": "metal_fused",
+      "rows": 512,
+      "features": 1024,
+      "dtype": "float32",
+      "max_absolute_error": 1.430511474609375e-06,
+      "num_warps": 0,
+      "median_ms": 0.19193749999999998,
+      "p95_ms": 0.21544985,
+      "total_ms": 9.567162
+    },
+    {
+      "backend": "metal",
+      "implementation": "mlx_expression",
+      "rows": 1024,
+      "features": 4096,
+      "dtype": "float32",
+      "max_absolute_error": 2.86102294921875e-06,
+      "num_warps": 0,
+      "median_ms": 1.144854,
+      "p95_ms": 1.2085481,
+      "total_ms": 57.308877
+    },
+    {
+      "backend": "metal",
+      "implementation": "metal_fused",
+      "rows": 1024,
+      "features": 4096,
+      "dtype": "float32",
+      "max_absolute_error": 2.86102294921875e-06,
+      "num_warps": 0,
+      "median_ms": 0.507541,
+      "p95_ms": 0.5431436,
+      "total_ms": 25.22604
+    },
+    {
+      "backend": "metal",
+      "implementation": "mlx_expression",
+      "rows": 33,
+      "features": 513,
+      "dtype": "float32",
+      "max_absolute_error": 9.5367431640625e-07,
+      "num_warps": 0,
+      "median_ms": 0.17781249999999998,
+      "p95_ms": 0.19892295,
+      "total_ms": 8.877124
+    },
+    {
+      "backend": "metal",
+      "implementation": "metal_fused",
+      "rows": 33,
+      "features": 513,
+      "dtype": "float32",
+      "max_absolute_error": 9.5367431640625e-07,
+      "num_warps": 0,
+      "median_ms": 0.1846875,
+      "p95_ms": 0.1978522,
+      "total_ms": 9.16933
+    }
+  ],
+  "details": []
+}

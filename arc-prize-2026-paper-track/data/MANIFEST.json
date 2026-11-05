@@ -1,0 +1,9 @@
+{
+  "source_url": "https://codeload.github.com/fchollet/ARC-AGI/tar.gz/399030444e0ab0cc8b4e199870fb20b863846f34",
+  "source_commit": "399030444e0ab0cc8b4e199870fb20b863846f34",
+  "split": "public training",
+  "tasks": 400,
+  "dataset_sha256": "7577f9fa12311153f5c2f2f2e2d39b370e4fabbfad64ce813ef040533e139735",
+  "license": "Apache-2.0",
+  "transformation": "JSON task files consolidated without changing grids"
+}

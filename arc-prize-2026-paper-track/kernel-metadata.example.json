@@ -1,0 +1,15 @@
+{
+  "id": "your-kaggle-handle/arc-prize-2026-paper-track",
+  "title": "Small Programs, Explicit Evidence",
+  "code_file": "paper.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": false,
+  "dataset_sources": [
+    "your-kaggle-handle/agent-verification-artifacts"
+  ],
+  "competition_sources": [],
+  "kernel_sources": []
+}

@@ -1,0 +1,2 @@
+# Optional supplemental Apple Silicon GPU experiment, not a Triton backend.
+mlx==0.29.3
