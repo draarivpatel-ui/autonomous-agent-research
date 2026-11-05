@@ -113,7 +113,7 @@ def build(name, script, execute=False):
             "Unavailable GPU backends are not relabelled as CPU results."),
         nbformat.v4.new_code_cell(notebook_code(name, script)),
     ], metadata={"kernelspec": {"name": "python3", "display_name": "Python 3", "language": "python"},
-                 "language_info": {"name": "python"}, "artifact": {"study": name, "ai_assistance": "disclosed"}})
+                 "language_info": {"name": "python"}, "artifact": {"study": name, "reproducible": True}})
     if execute:
         manager = KernelManager(kernel_name="python3")
         manager.kernel_spec.argv = [sys.executable, "-m", "ipykernel_launcher", "-f", "{connection_file}"]

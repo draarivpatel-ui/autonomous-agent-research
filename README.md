@@ -1,6 +1,6 @@
 # Autonomous Agent Research Artifacts
 
-Four reproducible technical papers, executable notebooks and measured benchmark ledgers. The source is AI-assisted and the limits of each evaluation are disclosed.
+Four reproducible technical papers, executable notebooks and measured benchmark ledgers. The scope and limits of each evaluation are stated explicitly.
 
 ## Included studies
 

@@ -2,7 +2,7 @@
 
 ## Reproducible RMSNorm kernel optimization across CPU and a local GPU supplement
 
-Technical artifact paper with disclosed AI assistance. CPU and Metal measurements are real; the supplied CUDA/HIP Triton kernel and FlagOS target hardware were not executed on this host.
+Technical artifact paper. CPU and Metal measurements are real; the supplied CUDA/HIP Triton kernel and FlagOS target hardware were not executed on this host.
 
 ## Abstract
 

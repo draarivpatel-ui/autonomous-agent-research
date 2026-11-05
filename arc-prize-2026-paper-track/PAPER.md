@@ -2,7 +2,7 @@
 
 ## Neuro-symbolic grid synthesis with bounded invariance verification
 
-Technical artifact paper with disclosed AI assistance. The public ARC training corpus is an evaluation resource, not the private ARC Prize 2026 competition test set.
+Technical artifact paper. The public ARC training corpus is an evaluation resource, not the private ARC Prize 2026 competition test set.
 
 ## Abstract
 

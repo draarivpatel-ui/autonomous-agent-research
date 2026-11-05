@@ -11,7 +11,7 @@ Review the complete current source in the four sibling flagship repositories and
 - All five pytest suites passed, 149 cases in total.
 - The four Node suites passed, 162 tests in total.
 - All four paper notebooks were executed and contain recomputed output.
-- Hark honesty checks passed on all five targets.
+- Honesty checks passed on all five targets.
 - The expanded text release audit has no findings.
 - Numerical kernel tests include actual Metal GPU outputs, while CUDA/HIP Triton remains unexecuted.
 

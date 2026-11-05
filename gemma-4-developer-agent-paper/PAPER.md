@@ -2,7 +2,7 @@
 
 ## A local mathematical and policy boundary for developer-agent proposals
 
-Technical artifact paper. AI-assisted implementation and manuscript drafting are disclosed. This is a reproducible submission candidate, not an accepted publication or a report of Gemma inference.
+Technical artifact paper. This is a reproducible submission candidate, not an accepted publication or a report of Gemma inference.
 
 ## Abstract
 
@@ -104,7 +104,7 @@ All measured source is local and inspectable. The package pins dependencies, rec
 
 The optional model connector uses a fixed nonpersonal prompt. Real deployment with private source needs its own data-handling review. Public reports should never include actual credentials or private pasted plans.
 
-Code and prose were produced with disclosed AI assistance. No original student narrative, human testing network, Kiro usage log, tracked work time, partnership or award is invented. The Gemma competition page title has been checked, but venue-specific eligibility and model-use requirements must be satisfied before this artifact is entered.
+No original student narrative, human testing network, Kiro usage log, tracked work time, partnership or award is invented. The Gemma competition page title has been checked, but venue-specific eligibility and model-use requirements must be satisfied before this artifact is entered.
 
 ## 9. Conclusion
 

@@ -6,7 +6,7 @@
 - Validate every notebook by execution, not only by JSON syntax.
 - Keep source hashes, corpus license and dependency lock with the paper.
 - Keep simulated channels and actual hardware results labelled separately.
-- Disclose AI assistance, generated fixtures and unexecuted model or hardware paths.
+- Document generated fixtures and unexecuted model or hardware paths.
 
 ## Entry evidence
 

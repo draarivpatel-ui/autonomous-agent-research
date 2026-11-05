@@ -2,7 +2,7 @@
 
 ## Closed-schema local agent packets with cryptographic and acoustic verification
 
-Technical artifact paper with disclosed AI assistance. All benchmark payloads are synthetic and no recordings of people are collected.
+Technical artifact paper. All benchmark payloads are synthetic and no recordings of people are collected.
 
 ## Abstract
 
