@@ -6,7 +6,6 @@ import html
 import json
 import os
 import sys
-from pathlib import Path
 
 import nbformat
 from jupyter_client import KernelManager

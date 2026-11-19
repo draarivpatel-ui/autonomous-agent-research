@@ -2,7 +2,6 @@
 import json
 import shutil
 import subprocess
-from pathlib import Path
 
 from research_common import ROOT, sha256
 
